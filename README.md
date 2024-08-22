@@ -1,5 +1,24 @@
 # space-nvs
-Novel View Synthesis (NVS) for space objects
+This repository contains the implementation steps for Toward a General Model for Novel View Synthesis (NVS) for space objects.
+
+For data, 190 spacecraft 3D models from National Aeronautics and Space Administration (NASA), European Space Agency (ESA), and Synthetic Dataset for Satellites (SPE3R) datasets were used. Using the provided Blender file,  extract camera angles and json file using a data format required by Zero123 (https://github.com/cvlab-columbia/zero123).
+
+Copy the data over to the GPU server. Clone the zero123 repository and upload the Zero123XL checkpoint. Make sure to update simple.py file to adjust train/validation split.
+Run the finetuning (download missing packages if prompted) and save the finetuned model
+python main.py \
+    -t \
+    --base configs/sd-objaverse-finetune-c_concat-256.yaml \
+    --gpus 0,1,2,3,4 \
+    --scale_lr False \
+    --num_nodes 1 \
+    --seed 42 \
+    --check_val_every_n_epoch 10 \
+    --finetune_from zero123-xl.ckpt
+
+
+Clone the DreamGaussian repository (https://github.com/dreamgaussian/dreamgaussian). Then, upload  checkpoint and config files and adjust model paths in main.py, main2.py, and any other files needed to use the finetuned model instead of the original Zero123XL
+
+CLIP similarity can be calculated through running python -m kiui.cli.clip_sim example_rgba.png example.obj. The script to calculate LPIPS, PSNR, SSIM is provided in this repository.
 
 # Resources
 
