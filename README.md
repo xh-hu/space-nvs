@@ -1,9 +1,11 @@
 # space-nvs
-# Spacecraft Novel View Generation
 
-| Spacecraft Name   | Input                     | Generated Novel Views         |
-|-------------------|---------------------------|-------------------------------|
-| Spacecraft 1       | ![Spacecraft 1](explorer1.png) | <img src="explorer1.gif" width="300" height="300" alt="Generated View 1"> |
+
+| Spacecraft                  | Input                     | Generated Novel Views         |
+|-----------------------------|---------------------------|-------------------------------|
+| Explorer 1                  | ![Spacecraft 1](explorer1.png) | <img src="explorer1.gif" width="256" height="256" alt="Generated View 1"> |
+| Apollo Lunar Module         | ![Spacecraft 1](lunarlandernofoil-carbajal.png) | <img src="lunarlandernofoil-carbajal.gif" width="256" height="256" alt="Generated View 2"> |
+| Space Launch System Block 1 | ![Spacecraft 1](sls_block1.png) | <img src="sls_block1.gif" width="300" height="300" alt="Generated View 3"> |
 
 
 
