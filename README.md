@@ -1,4 +1,12 @@
 # space-nvs
+# Spacecraft Novel View Generation
+
+| Spacecraft Name   | Input                     | Generated Novel Views         |
+|-------------------|---------------------------|-------------------------------|
+| Spacecraft 1       | ![Spacecraft 1](explorer1.png) | <img src="explorer1.gif" width="600" height="600" alt="Generated View 1"> |
+
+
+
 This repository contains the implementation steps for Toward a General Model for Novel View Synthesis (NVS) for space objects.
 
 For data, 190 spacecraft 3D models from National Aeronautics and Space Administration (NASA), European Space Agency (ESA), and Synthetic Dataset for Satellites (SPE3R) datasets were used. Using the provided Blender file,  extract camera angles and json file using a data format required by Zero123 (https://github.com/cvlab-columbia/zero123).
