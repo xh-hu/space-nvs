@@ -3,7 +3,7 @@
 
 | Spacecraft Name   | Input                     | Generated Novel Views         |
 |-------------------|---------------------------|-------------------------------|
-| Spacecraft 1       | ![Spacecraft 1](explorer1.png) | <img src="explorer1.gif" width="600" height="600" alt="Generated View 1"> |
+| Spacecraft 1       | ![Spacecraft 1](explorer1.png) | <img src="explorer1.gif" width="300" height="300" alt="Generated View 1"> |
 
 
 
