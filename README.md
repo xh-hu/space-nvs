@@ -1,5 +1,7 @@
 # DreamSat: Towards a General 3D Model for Novel View Synthesis of Space Objects
 
+[Project Page](https://dream-sat.github.io/) | arXiv (coming soon) 
+
 ## Project Overview
 
 Novel view synthesis (NVS) enables to generate new images of a scene or convert a set of 2D images into a comprehensive 3D model. In the context of Space Domain Awareness, since space is becoming increasingly congested, NVS can accurately map space objects and debris, improving the safety and efficiency of space operations. Similarly, in Rendezvous and Proximity Operations missions, 3D models can provide details about a target object's shape, size, and orientation, allowing for better planning and prediction of the target's behavior. 
