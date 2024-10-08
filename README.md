@@ -71,7 +71,7 @@ title = {DreamSat: Towards a General 3D Model for Novel View Synthesis of Space 
 }
 ```
 
-Link to the paper: [arXiv](https://doi.org/10.48550/arXiv.2410.05097), [ResearchGate](https://www.researchgate.net/publication/384728337_DreamSat_Towards_a_General_3D_Model_for_Novel_View_Synthesis_of_Space_Objects),
+Link to the paper: [arXiv](https://doi.org/10.48550/arXiv.2410.05097) | [ResearchGate](https://www.researchgate.net/publication/384728337_DreamSat_Towards_a_General_3D_Model_for_Novel_View_Synthesis_of_Space_Objects)
 
 ## Acknowledgments
 
