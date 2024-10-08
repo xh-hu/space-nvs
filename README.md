@@ -1,6 +1,6 @@
 # DreamSat: Towards a General 3D Model for Novel View Synthesis of Space Objects
 
-[Project Page](https://dream-sat.github.io/) | arXiv (coming soon) 
+[Project Page](https://dream-sat.github.io/) | [arXiv](https://doi.org/10.48550/arXiv.2410.05097)
 
 ## Project Overview
 
@@ -71,8 +71,7 @@ title = {DreamSat: Towards a General 3D Model for Novel View Synthesis of Space 
 }
 ```
 
-Link to the paper: coming soon ...
-<!-- Link to the [paper](https://www.researchgate.net/publication/384042830_Early_Classification_of_Space_Objects_based_on_Astrometric_Time_Series_Data). -->
+Link to the paper: [arXiv](https://doi.org/10.48550/arXiv.2410.05097), [ResearchGate](https://www.researchgate.net/publication/384728337_DreamSat_Towards_a_General_3D_Model_for_Novel_View_Synthesis_of_Space_Objects),
 
 ## Acknowledgments
 
