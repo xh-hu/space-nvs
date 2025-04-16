@@ -19,7 +19,7 @@ Our method addresses the lack of domain-specific 3D reconstruction tools in the 
 
 ### Dataset
 
-For data, 190 spacecraft 3D models from National Aeronautics and Space Administration (NASA), European Space Agency (ESA), and Synthetic Dataset for Satellites (SPE3R) datasets were used. The models are included in the form of `.obj` files in `dataset_toolkit/datasets/spacecraft_data`.
+For data, 190 spacecraft 3D models from National Aeronautics and Space Administration (NASA), European Space Agency (ESA), and Synthetic Dataset for Satellites (SPE3R) datasets were used.
 
 To process the data, change the data directories in `dataset_toolkit/zero123_subprocess.py` and run the file. This can be done in a separate terminal window and run in background without disrupting other processes. Once the data has been processed and added to the new data directory, run `dataset_toolkit/json_to_npy.py` to convert the json file with camera transform matrices to a numpy file for each image instead. The final dataset should contain folders, each of which contains 48 views of a 3D object with the corresponding numpy matrix. This matches the format required by Zero123-XL (https://github.com/cvlab-columbia/zero123).
 
